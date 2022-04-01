@@ -1,0 +1,76 @@
+*, *:before, *:after {
+    box-sizing: border-box; padding:0; margin:0;
+}
+
+.prank-btn {
+    width: 10%;
+    height: 50px;
+    background-color: lime;
+    color: white;
+    text-align: center;
+    margin: 400px 45% 0 45%;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.prank-btn:hover {
+    background-color: rgb(4, 166, 4);
+}
+
+.download {
+    width: 50%;
+    display: column;
+    justify-content: center;
+    text-align: center;
+    margin: 200px auto;
+}
+
+.download h1 {
+    font-size: 3rem;
+    color: yellow;
+}
+
+.pranked {
+    width: 50%;
+    height: 250px;
+    background-color: yellow;
+    margin: auto;
+}
+
+.pranked img {
+    width: 100%;
+    height: 100%;
+}
+
+.continue {
+    position: relative;
+    top: -250px;
+    left: 22.5%;
+    width: 70px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.continue a {
+    width: 100%;
+    font-size: 2rem;
+    color: transparent;
+    text-decoration: none;
+}
+
+.dark {
+    background-color: black;
+}
+
+.april-1st {
+    width: 100%;
+    height: 50px;
+    margin: 300px auto;
+    text-align: center;
+    font-size: 4rem;
+    color: white;
+    font-weight: bolder;
+}
